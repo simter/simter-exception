@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>tech.simter</groupId>
+    <artifactId>simter-parent</artifactId>
+    <version>${revision}</version>
+    <relativePath>../simter-parent</relativePath>
+  </parent>
+  <artifactId>simter-exception</artifactId>
+  <packaging>jar</packaging>
+  <name>simter-exception</name>
+  <description>Some Common Exceptions Use By Simter</description>
+  <url>https://github.com/simter/simter-exception</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/simter/simter-exception.git</url>
+  </scm>
+  <organization>
+    <name>simter</name>
+    <url>https://github.com/simter</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>RJ Hwang</name>
+      <email>rongjihuang@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/simter/simter-exception/issues</url>
+  </issueManagement>
+</project>
