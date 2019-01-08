@@ -1,6 +1,6 @@
 # simter-exception
 
-Some Common Exceptions Use By Simter. Include:
+Common exceptions use by simter. Include:
 
 - [SimterException] - Common base exception
 - [NonUniqueException] : [SimterException]
@@ -8,6 +8,7 @@ Some Common Exceptions Use By Simter. Include:
 - [SecurityException] : [SimterException] - Security base exception
 - [UnauthenticatedException] : [SecurityException]
 - [PermissionDeniedException] : [SecurityException]
+- [ForbiddenException] : [SecurityException]
 
 > All Exception is a subtype of [SimterException].
 
@@ -17,7 +18,7 @@ Some Common Exceptions Use By Simter. Include:
 <dependency>
   <groupId>tech.simter</groupId>
   <artifactId>simter-exception</artifactId>
-  <version>0.5.0</version>
+  <version>1.0.0</version>
 </dependency>
 ```
 
@@ -34,3 +35,4 @@ mvn clean package
 [SecurityException]: https://github.com/simter/simter-exception/blob/master/src/main/java/tech/simter/exception/SecurityException.java
 [UnauthenticatedException]: https://github.com/simter/simter-exception/blob/master/src/main/java/tech/simter/exception/UnauthenticatedException.java
 [PermissionDeniedException]: https://github.com/simter/simter-exception/blob/master/src/main/java/tech/simter/exception/PermissionDeniedException.java
+[ForbiddenException]: https://github.com/simter/simter-exception/blob/master/src/main/java/tech/simter/exception/ForbiddenException.java
