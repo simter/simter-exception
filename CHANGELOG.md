@@ -1,5 +1,11 @@
 # simter-exception changelog
 
+## 1.1.0 - 2019-07-02
+
+No code changed, just polishing maven config.
+
+- Change parent to simter-dependencies-1.2.0
+
 ## 1.0.0 - 2019-01-08
 
 - initial with follow exceptions:
